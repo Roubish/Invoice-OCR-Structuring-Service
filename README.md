@@ -106,7 +106,7 @@ Key: file
 Value: Invoice image or PDF
 
 Sample Response
-{
+```{
   "is_success": true,
   "data": {
     "pagewise_line_items": [
@@ -126,7 +126,7 @@ Sample Response
     "reconciled_amount": 50.0
   }
 }
-
+```
 ## Challenges Solved
 - Handling rotated & scanned invoices
 - Extracting data from non-standard layouts
