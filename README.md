@@ -47,7 +47,7 @@ This API automates invoice processing by extracting structured billing data from
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: FastAPI
 - **OCR**: Tesseract OCR
