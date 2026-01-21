@@ -5,24 +5,24 @@ This API automates invoice processing by extracting structured billing data from
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📄 Supports **Image & PDF invoices**
-- 🔍 Automatic **OCR text extraction**
-- 🔄 **Auto-rotation** for scanned documents
-- 📊 Extracts invoice **line items**
+- Supports **Image & PDF invoices**
+- Automatic **OCR text extraction**
+- **Auto-rotation** for scanned documents
+- Extracts invoice **line items**
   - Item Name
   - Quantity
   - Rate
   - Amount
-- 📐 Handles **horizontal and vertical table layouts**
-- 🤖 **LLM fallback (Google Gemini)** for complex invoices
-- ⚡ REST API built with **FastAPI**
-- 📦 Clean, structured JSON output
+- Handles **horizontal and vertical table layouts**
+- **LLM fallback (Google Gemini)** for complex invoices
+- REST API built with **FastAPI**
+- Clean, structured JSON output
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 1. **Input**  
    - Image (`.png`, `.jpg`, `.jpeg`)  
@@ -58,7 +58,7 @@ This API automates invoice processing by extracting structured billing data from
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 .
 ├── main.py # FastAPI entry point
@@ -69,31 +69,31 @@ This API automates invoice processing by extracting structured billing data from
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 Create a `.env` file:
 
 ```env
 API_KEY=your_gemini_api_key
 ```
-▶️ Running the Project
-1️⃣ Install Dependencies
+Running the Project
+1️Install Dependencies
 pip install -r requirements.txt
 
-2️⃣ Start the API Server
+2️Start the API Server
 uvicorn main:app --reload
 
-3️⃣ API Health Check
+3️API Health Check
 GET /
 
 
 Response:
 
 {
-  "message": "Invoice OCR API is running 🚀"
+  "message": "Invoice OCR API is running "
 }
 
-📤 Extract Invoice Data
+Extract Invoice Data
 Endpoint
 POST /extract
 
