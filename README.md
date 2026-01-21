@@ -60,13 +60,13 @@ This API automates invoice processing by extracting structured billing data from
 
 ## Project Structure
 
-.
+```.
 ├── main.py # FastAPI entry point
 ├── new_utils.py # OCR & extraction utilities
 ├── requirements.txt
 ├── .env # API keys
 └── README.md
-
+```
 ---
 
 ## Environment Variables
