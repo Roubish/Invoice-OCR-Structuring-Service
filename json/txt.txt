@@ -1,0 +1,8 @@
+curl -X POST http://127.0.0.1:8000/extract   -F "file=@/home/roubish/Documents/ocr_project/ocr/sample_data/sample_1.png" -o json/output.json
+
+
+curl -X POST http://127.0.0.1:8000/extract   -F "file=@/home/roubish/Documents/ocr_project/ocr/sample_data/sample_2.png" -o json/output.json
+
+
+
+curl -X POST http://127.0.0.1:8000/extract   -F "file=@/home/roubish/Documents/ocr_project/ocr/sample_data/Resume.pdf" 
